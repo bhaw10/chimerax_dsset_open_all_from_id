@@ -24,3 +24,6 @@ command = Command(session)
 command.run("close #*")
 command.run(f"open {mrc_path}")
 command.run(f"open {cif_path}")
+command.run(f"hide atoms")
+command.run(f"show cartoons")
+command.run(f"transparency #1 15") # set transparency here

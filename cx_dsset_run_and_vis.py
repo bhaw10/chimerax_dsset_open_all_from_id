@@ -10,7 +10,7 @@ overwrite = True
 # *note: the rest of the steps only need to be done infrequently after initial setup
 ####################################################################################
 # TODO: 3. set output_dir
-output_dir = '/home/bhawi001/_heLab/CryoEM/DeepSSETracer/Inference/chimerax_cmd_open_all_from_id/output' # no trailing '/'
+output_dir = '/home/bhawi001/_heLab/CryoEM/DeepSSETracer/Inference/chimerax_dsset_open_all_from_id/output' # no trailing '/'
 if not overwrite: output_dir += f"/{sample_id}"
 
 # TODO: 4. set input data directory
